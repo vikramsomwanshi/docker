@@ -5,6 +5,6 @@ services:
     ports:
       - "8080:8080"
     volumes:
-     - "/mnt/wars:/usr/local/tomcat/webapps"
+     - "/mnt/vicky/game-of-life/gameoflife-web/target:/usr/local/tomcat/webapps"
 
     
